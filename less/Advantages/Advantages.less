@@ -1,0 +1,18 @@
+.Advantages {
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+	&-item {
+		position: relative;
+		width: calc(100% / 3 - 60px);
+		padding-left: 50px;
+		padding-right: 10px;
+
+		@media (max-width: 720px) {
+   			width: calc(100% / 2 - 60px);
+   		}
+   		@media (max-width: 540px) {
+   			width: calc(100%  - 60px);
+   		}
+	}
+}
